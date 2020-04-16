@@ -10,11 +10,17 @@ The script will frequently pause for a semi-random amount of time.  This is to a
 # Getting Started
 
 The script uses Gmail to send notifications.
+
 1. [Python 3](https://www.python.org/downloads/)
+
 2. Install dependencies (pip install -r requirements.txt)
+
 3. Set up a burner Gmail account.
+
 4. Turn [Allow less secure apps](https://myaccount.google.com/lesssecureapps) to ON.
+
 5. Save that burner address into the email-config.json file.
+
 
 
 # Running the script
