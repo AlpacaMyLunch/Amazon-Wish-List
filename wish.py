@@ -417,7 +417,7 @@ def LlamaPrint(msg: str):
     last_msg_length = len(LlamaPrint.last_msg) if hasattr(LlamaPrint, 'last_msg') else 0
     print(' ' * last_msg_length, end='\r')
     print(msg, end='\r')
-    sys.stdout.flush()  # Some say they needed this, I didn't.
+    sys.stdout.flush()  
     LlamaPrint.last_msg = msg
 
 if __name__ == '__main__':
